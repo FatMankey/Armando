@@ -46,7 +46,7 @@ c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.1
               _Alloc=std::allocator<std::pair<const std::string,int>>,
               _Traits=std::_Tmap_traits<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>,false>
           ]
-  c:\users\spart.daedalus\documents\visual studio 2017\projects\magic\magic\types.cpp(34): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,int,_Pr,_Alloc,false>>::emplace<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64> &&)' being compiled
+  c:\users\spart\documents\visual studio 2017\projects\armando\magic\magic\types.cpp(34): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,int,_Pr,_Alloc,false>>::emplace<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64> &&)' being compiled
           with
           [
               _Ty=std::pair<const std::string,int>,
@@ -54,7 +54,7 @@ c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.1
               _Pr=std::less<std::string>,
               _Alloc=std::allocator<std::pair<const std::string,int>>
           ]
-  c:\users\spart.daedalus\documents\visual studio 2017\projects\magic\magic\types.cpp(34): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,int,_Pr,_Alloc,false>>::emplace<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64> &&)' being compiled
+  c:\users\spart\documents\visual studio 2017\projects\armando\magic\magic\types.cpp(34): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,int,_Pr,_Alloc,false>>::emplace<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64> &&)' being compiled
           with
           [
               _Ty=std::pair<const std::string,int>,
@@ -103,7 +103,7 @@ c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.1
               _Alloc=std::allocator<std::pair<const int,std::string>>,
               _Traits=std::_Tmap_traits<int,std::string,std::less<int>,std::allocator<std::pair<const int,std::string>>,false>
           ]
-  c:\users\spart.daedalus\documents\visual studio 2017\projects\magic\magic\types.cpp(34): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,_Pr,_Alloc,false>>::emplace<std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>(std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>> &&)' being compiled
+  c:\users\spart\documents\visual studio 2017\projects\armando\magic\magic\types.cpp(34): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,_Pr,_Alloc,false>>::emplace<std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>(std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>> &&)' being compiled
           with
           [
               _Ty=std::pair<const int,std::string>,
@@ -111,7 +111,7 @@ c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.1
               _Pr=std::less<int>,
               _Alloc=std::allocator<std::pair<const int,std::string>>
           ]
-  c:\users\spart.daedalus\documents\visual studio 2017\projects\magic\magic\types.cpp(34): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,_Pr,_Alloc,false>>::emplace<std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>(std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>> &&)' being compiled
+  c:\users\spart\documents\visual studio 2017\projects\armando\magic\magic\types.cpp(34): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,_Pr,_Alloc,false>>::emplace<std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>(std::pair<unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>> &&)' being compiled
           with
           [
               _Ty=std::pair<const int,std::string>,
@@ -121,4 +121,4 @@ c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.1
           ]
   view.cpp
   Generating Code...
-  Magic.vcxproj -> C:\Users\spart.DAEDALUS\Documents\Visual Studio 2017\Projects\Magic\x64\Debug\Magic.exe
+  Magic.vcxproj -> C:\Users\spart\Documents\Visual Studio 2017\Projects\Armando\Magic\x64\Debug\Magic.exe

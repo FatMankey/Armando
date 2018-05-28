@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\spart\documents\visual studio 2017\projects\armando\tools\unittests\</FILEPATH>
+      <FILENAME>app.cpp</FILENAME>
+      <LINE>555</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>testXMLParserRules</FUNCTION>
+    <DECORATED>?testXMLParserRules@@YAXXZ</DECORATED>
+    <FUNCLINE>427</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\spart\documents\visual studio 2017\projects\armando\tools\unittests\</FILEPATH>
+      <FILENAME>app.cpp</FILENAME>
+      <LINE>560</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>testXMLParserRules</FUNCTION>
+    <DECORATED>?testXMLParserRules@@YAXXZ</DECORATED>
+    <FUNCLINE>427</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\spart\documents\visual studio 2017\projects\armando\tools\unittests\</FILEPATH>
+      <FILENAME>app.cpp</FILENAME>
+      <LINE>694</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>testXMLParserYugioh</FUNCTION>
+    <DECORATED>?testXMLParserYugioh@@YAXXZ</DECORATED>
+    <FUNCLINE>564</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\spart\documents\visual studio 2017\projects\armando\tools\unittests\</FILEPATH>
+      <FILENAME>app.cpp</FILENAME>
+      <LINE>689</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>testXMLParserYugioh</FUNCTION>
+    <DECORATED>?testXMLParserYugioh@@YAXXZ</DECORATED>
+    <FUNCLINE>564</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\spart\documents\visual studio 2017\projects\armando\tools\tools\</FILEPATH>
+      <FILENAME>xmltree.h</FILENAME>
+      <LINE>132</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26434</DEFECTCODE>
+    <DESCRIPTION>Function 'XMLTree&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;::XMLTree&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;' hides a non-virtual function 'XMLNode&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;::XMLNode&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;' (c.128).</DESCRIPTION>
+    <FUNCTION>XMLTree&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$XMLTree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@@QEAA@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z</DECORATED>
+    <FUNCLINE>132</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\spart\documents\visual studio 2017\projects\armando\tools\tools\</FILEPATH>
+      <FILENAME>xmltree.h</FILENAME>
+      <LINE>125</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26434</DEFECTCODE>
+    <DESCRIPTION>Function 'XMLTree&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;::XMLTree&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;' hides a non-virtual function 'XMLNode&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;::XMLNode&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;' (c.128).</DESCRIPTION>
+    <FUNCTION>XMLTree&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$XMLTree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>125</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\spart\documents\visual studio 2017\projects\armando\tools\tools\</FILEPATH>
+      <FILENAME>xmltree.h</FILENAME>
+      <LINE>125</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>XMLTree&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$XMLTree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>125</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\spart\documents\visual studio 2017\projects\armando\tools\tools\</FILEPATH>
+      <FILENAME>xmlnode.h</FILENAME>
+      <LINE>45</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>XMLNode&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$XMLNode@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>45</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
