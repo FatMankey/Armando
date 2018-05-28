@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!-- Names are usually entered by the player in lower case (or are converted to lower case) and therefore are considered user data
+		 and are stored in lower case for game play validation. Types are not considered user data. They are treated as constants
+		 and are stored in UPPER CASE -->
+<!-- ID 2 -->
+<rules>
+	<!-- ID 1 (EMPTY ROOT NODE) -->
+	
+	<!-- There are Level-oriented compass directions, and there are directional and relational commands and command arguments.
+		 Directions can be used as move commands without a command prefix -->
+	<!-- "Never eat soggy waffles": the customary way of rotating through the compass directions: N, E, S, W -->
+	<!-- In Order Traversal: return all direction trees, without the root tree itself (directions) -->
+	<!-- Direction of "none" added in code with a value of -1 -->
+	
+	<!-- ID 4 -->
+	<directions>
+		<!-- ID 3 (EMPTY ROOT NODE) -->
+				
+		<!-- ID 6 -->
+		<direction>
+			<!-- ID 5 -->
+			<name>north</name>
+			<value>0</value>
+			<!-- ID 8 -->
+			<aliases>
+				<!-- ID 7 -->
+				<alias>n</alias>
+			</aliases>
+		</direction>
+		
+		<!-- ID 10 -->
+		<direction>
+			<!-- ID 9 -->
+			<name>notheast</name>
+			<value>1</value>
+			<!-- ID 12 -->
+			<aliases>
+				<!-- ID 11 -->
+				<alias>north east</alias>
+				<!-- ID 13 -->
+				<alias>ne</alias>
+			</aliases>
+		</direction>
+		
+		<!-- ID 15 -->
+		<direction>
+			<!-- ID 14 -->
+			<name>east</name>
+			<value>2</value>
+			<!-- ID 17 -->
+			<aliases>
+				<!-- ID 16 -->
+				<alias>e</alias>
+			</aliases>
+		</direction>
+	
+		<!-- ID 19 -->
+		<direction>
+			<!-- ID 18 -->
+			<name>southeast</name>
+			<value>3</value>
+			<!-- ID 21 -->
+			<aliases>
+				<!-- ID 20 -->
+				<alias>south east</alias>
+				<!-- ID 22 -->
+				<alias>se</alias>
+			</aliases>
+		</direction>
+	
+		<!-- ID 24 -->
+		<direction>
+			<!-- ID 23 -->
+			<name>south</name>
+			<value>4</value>
+			<!-- ID 26 -->
+			<aliases>
+				<!-- ID 25 -->
+				<alias>s</alias>
+			</aliases>
+		</direction>
+
+		<!-- ID 28 -->
+		<direction>
+			<!-- ID 27 -->
+			<name>southwest</name>
+			<value>5</value>
+			<!-- ID 30 -->
+			<aliases>
+				<!-- ID 29 -->
+				<alias>south west</alias>
+				<!-- ID 31 -->
+				<alias>sw</alias>
+			</aliases>
+		</direction>
+		
+		<!-- ID 33 -->
+		<direction>
+			<!-- ID 32 -->
+			<name>west</name>
+			<value>6</value>
+			<!-- ID 35 -->
+			<aliases>
+				<!-- ID 34 -->
+				<alias>w</alias>
+			</aliases>
+		</direction>
+				
+		<!-- ID 37 -->
+		<direction>
+			<!-- ID 36 -->
+			<name>northwest</name>
+			<value>7</value>
+			<!-- ID 39 -->
+			<aliases>
+				<!-- ID 38 -->
+				<alias>north west</alias>
+				<!-- ID 40 -->
+				<alias>nw</alias>
+			</aliases>
+		</direction>
+		
+		<!-- ID 42 -->
+		<direction>
+			<!-- ID 41 -->
+			<name>up</name>
+			<value>8</value>
+			<!-- ID 44 -->
+			<aliases>
+				<!-- ID 43 -->
+				<alias>u</alias>
+			</aliases>
+		</direction>
+		
+		<!-- ID 46 -->
+		<direction>
+			<!-- ID 45 -->
+			<name>down</name>
+			<value>9</value>
+			<!-- ID 48 -->
+			<aliases>
+				<!-- ID 47 -->
+				<alias>d</alias>
+			</aliases>
+		</direction>
+	</directions>
+		
+	<!-- ID 50 -->
+	<relational-directions>
+		<!-- ID 49 (EMPTY ROOT NODE) -->
+		
+		<!-- ID 52 -->
+		<direction>
+			<!-- ID 51 -->
+			<name>forward</name>
+			<!-- ID 54 -->
+			<aliases>
+				<!-- ID 53 -->
+				<alias>f</alias>
+			</aliases>
+		</direction>
+		
+		<!-- ID 56 -->
+		<direction>
+			<!-- ID 55 -->
+			<name>backward</name>
+			<!-- ID 58 -->
+			<aliases>
+				<!-- ID 57 -->
+				<alias>b</alias>
+			</aliases>
+		</direction>
+		
+		<!-- ID 60 -->
+		<direction>
+			<!-- ID 59 -->
+			<name>left</name>
+			<!-- ID 62 -->
+			<aliases>
+				<!-- ID 61 -->
+				<alias>l</alias>
+			</aliases>
+		</direction>
+		
+		<!-- ID 64 -->
+		<direction>
+			<!-- ID 63 -->
+			<name>right</name>
+			<!-- ID 66 -->
+			<aliases>
+				<!-- ID 65 -->
+				<alias>r</alias>
+			</aliases>
+		</direction>
+		
+		<!-- ID 68 -->
+		<direction>
+			<!-- ID 67 -->
+			<name>slightleft</name>
+			<!-- ID 70 -->
+			<aliases>
+				<!-- ID 69 -->
+				<alias>slight left</alias>
+				<!-- ID 71 -->
+				<alias>sl</alias>
+			</aliases>
+		</direction>
+		
+		<!-- ID 73 -->
+		<direction>
+			<!-- ID 72 -->
+			<name>slightright</name>
+			<!-- ID 75 -->
+			<aliases>
+				<!-- ID 74 -->
+				<alias>slight right</alias>
+				<!-- ID 76 -->
+				<alias>sr</alias>
+			</aliases>
+		</direction>
+		
+		<!-- ID 78 -->
+		<direction>
+			<!-- ID 77 -->
+			<name>sharpleft</name>
+			<!-- ID 80 -->
+			<aliases>
+				<!-- ID 79 -->
+				<alias>sharp left</alias>
+				<!-- ID 81 -->
+				<alias>shl</alias>
+			</aliases>
+		</direction>
+		
+		<!-- ID 83 -->
+		<direction>
+			<!-- ID 82 -->
+			<name>sharpright</name>
+			<!-- ID 85 -->
+			<aliases>
+				<!-- ID 84 -->
+				<alias>sharp right</alias>
+				<!-- ID 86 -->
+				<alias>shr</alias>
+			</aliases>
+		</direction>
+	</relational-directions>
+</rules>

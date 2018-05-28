@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ALL TAG NAMES MUST BE SPELLED IN LOWER CASE WITHOUT SPACES. MULTIPLE WORDS MUST BE SEPERATED WITH DASH -->
+
+<world>																
+<!--- The World --->
+		<name>Ryan world</name>
+		
+</world>

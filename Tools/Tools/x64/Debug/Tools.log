@@ -1,0 +1,15 @@
+﻿  tools.cpp
+c:\users\spart.daedalus\documents\visual studio 2017\projects\tools\tools\tools.cpp(408): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\spart.daedalus\documents\visual studio 2017\projects\tools\tools\tools.cpp(408): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\spart.daedalus\documents\visual studio 2017\projects\tools\tools\tools.cpp(415): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\spart.daedalus\documents\visual studio 2017\projects\tools\tools\tools.cpp(415): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\spart.daedalus\documents\visual studio 2017\projects\tools\tools\tools.cpp(691): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\spart.daedalus\documents\visual studio 2017\projects\tools\tools\tools.cpp(691): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\spart.daedalus\documents\visual studio 2017\projects\tools\tools\tools.cpp(692): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\spart.daedalus\documents\visual studio 2017\projects\tools\tools\tools.cpp(692): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\spart.daedalus\documents\visual studio 2017\projects\tools\tools\tools.cpp(707): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\spart.daedalus\documents\visual studio 2017\projects\tools\tools\tools.cpp(707): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\spart.daedalus\documents\visual studio 2017\projects\tools\tools\tools.cpp(774): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\spart.daedalus\documents\visual studio 2017\projects\tools\tools\tools.cpp(778): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\spart.daedalus\documents\visual studio 2017\projects\tools\tools\tools.cpp(973): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Tools.vcxproj -> C:\Users\spart.DAEDALUS\Documents\Visual Studio 2017\Projects\Tools\x64\Debug\Tools.lib

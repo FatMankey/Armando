@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dictionary>
+	<!-- Primary commands -->
+	<command-types>
+		<type>END</type>
+		<type>EXIT</type>
+		<type>HELP</type>
+		<type>LOCATION</type>
+		<type>MOVE</type>
+		<type>TURN</type>
+		<type>THROW</type>
+	</command-types>
+	
+	<!-- A command may take a DIRECTIONAL or RELATIONAL argument and that argument may be REQUIRED or OPTIONAL -->
+	<argument-use>
+		<type>NONE</type>
+		<type>OPTIONAL</type>
+		<type>REQUIRED</type>
+	</argument-use>
+	
+	<argument-types>
+		<type>DIRECTIONAL</type>
+		<type>RELATIONAL</type>
+		<type>WITTY</type>
+	</argument-types>
+	
+    <!-- MOVE COMMAND -->
+	<!-- MOVE command will be hard-coded except for aliases ??? -->
+	<!-- Names are usually entered by the player in lower case (or are converted to lower case) and therefore are considered user data
+		and are stored in lower case for game play validation. Types are not considered user data. They are treated as constants
+		and are stored in UPPER CASE -->
+    <command>
+        <name>move</name>
+        <type>MOVE</type>
+		<!-- Directions can be used as commands without MOVE prefix -->
+		<!-- alias-of: m is alias-of move -->
+		<aliases>
+			<alias>m</alias>
+			<alias>mov</alias>
+			<alias>go</alias>
+			<alias>g</alias>
+			<alias>goto</alias>
+			<alias>go to</alias>
+			<!-- Contraction of "go to": "I gotta go home" -->
+			<alias>gotta</alias>
+			<alias>walk</alias>
+		</aliases>
+        <distance>1</distance>
+		 <argument-use>REQUIRED</argument-use>
+		<!-- energy cost -->
+        <cost>5</cost>
+        <!-- row and col values have been moved to code based on direction -->
+        <arguments>
+            <!-- DIRECTIONAL ARGUMENTS -->
+            <argument>
+                <argument-type>DIRECTIONAL</argument-type>
+                <direction>NORTH</direction>
+            </argument>
+            <argument>
+                <argument-type>DIRECTIONAL</argument-type>
+                <direction>SOUTH</direction>
+            </argument>
+            <argument>
+                <argument-type>DIRECTIONAL</argument-type>
+                <direction>EAST</direction>
+            </argument>
+            <argument>
+                <argument-type>DIRECTIONAL</argument-type>
+                <direction>WEST</direction>
+            </argument>
+            <argument>
+                <argument-type>DIRECTIONAL</argument-type>
+                <direction>NORTHEAST</direction>
+            </argument>
+            <argument>
+                <argument-type>DIRECTIONAL</argument-type>
+                <direction>NORTHWEST</direction>
+            </argument>
+            <argument>
+                <argument-type>DIRECTIONAL</argument-type>
+                <direction>SOUTHEAST</direction>
+            </argument>
+            <argument>
+                <argument-type>DIRECTIONAL</argument-type>
+                <direction>SOUTHWEST</direction>
+            </argument>
+			<argument>
+                <argument-type>DIRECTIONAL</argument-type>
+                <direction>UP</direction>
+            </argument>
+			<argument>
+                <argument-type>DIRECTIONAL</argument-type>
+                <direction>DOWN</direction>
+            </argument>
+			
+            <!-- RELATIONAL ARGUMENTS -->
+            <argument>
+                <argument-type>RELATIONAL</argument-type>
+                <direction>FORWARD</direction>
+            </argument>
+            <argument>
+                <argument-type>RELATIONAL</argument-type>
+                <direction>BACKWARD</direction>
+            </argument>
+            <argument>
+                <argument-type>RELATIONAL</argument-type>
+                <direction>LEFT</direction>
+            </argument>
+            <argument>
+                <argument-type>RELATIONAL</argument-type>
+                <direction>RIGHT</direction>
+            </argument>        
+            <argument>
+                <argument-type>RELATIONAL</argument-type>
+                <direction>SLIGHTLEFT</direction>
+            </argument>
+            <argument>
+                <argument-type>RELATIONAL</argument-type>
+                <direction>SLIGHTRIGHT</direction>
+            </argument>
+            <argument>
+                <argument-type>RELATIONAL</argument-type>
+                <direction>SHARPLEFT</direction>
+            </argument>
+            <argument>
+                <argument-type>RELATIONAL</argument-type>
+                <direction>SHARPRIGHT</direction>
+            </argument>
+			
+			<!-- This should only apply to the GOTO command -->
+            <argument>
+                <name>to hell</name>
+                <argument-type>WITTY</argument-type>
+                <responses>
+                     <description>You first!</description>
+                     <description>Visit your momma then?</description>
+                     <description>You're bad!</description>
+                     <description>That's not nice</description>
+                     <description>You suck</description>
+                </responses>
+            </argument>
+        </arguments>
+        <responses>
+            <description>You are now at</description>
+            <description>You are facing</description>
+            <description>You moved</description>
+        </responses>
+        <negative-responses>
+            <description>You can't go that way</description>
+            <description>No way!</description>
+            <description>What?!</description>
+            <description>Huh?</description>
+            <description>Uhm...</description>
+            <description>Really?</description>
+			<description>What was that?</description>
+        </negative-responses>    
+    </command>
+    
+     <command>
+        <name>run</name>
+        <alias-of>move</alias-of>
+        <distance>4</distance>
+		<cost>40</cost>
+     </command>
+     <command>
+        <name>sprint</name>
+        <alias-of>move</alias-of>
+        <distance>8</distance>
+		<cost>100</cost>
+     </command>
+     <command>
+        <name>jump</name>
+        <alias-of>move</alias-of>
+		<aliases>
+			<alias>leap</alias>
+		</aliases>
+        <distance>2</distance>
+		<cost>10</cost>
+     </command>
+     
+     <!-- EXIT COMMAND -->
+     <command>
+        <name>EXIT</name>
+        <type>EXIT</type>
+		<aliases>
+			<alias>X</alias>
+			<alias>LEAVE</alias>
+			<alias>ESCAPE</alias>
+			<alias>ESC</alias>
+		</aliases>
+		<cost>5</cost>
+        <argument-type>NONE</argument-type>
+        <responses>
+            <description>You are now at</description>
+            <description>You are facing</description>
+            <description>You exited to</description>
+        </responses>
+        <negative-responses>
+            <description>You can't exit that way</description>
+            <description>There's no exit</description>
+            <description>I don't see a way out</description>
+        </negative-responses>
+     </command>
+     
+     <!-- GAME END COMMAND -->
+     <command>
+        <name>END</name>
+        <type>END</type>
+		<aliases>
+			<alias>GOODBYE</alias>
+			<alias>GOOD BYE</alias>
+			<alias>BYE</alias>
+		</aliases>
+        <responses>
+            <description>Would you like to save the game?</description>
+        </responses>
+     </command>
+    
+     <!-- THROW COMMAND -->
+     <command>
+        <name>THROW</name>
+        <type>THROW</type>
+		<aliases>
+			<alias>T</alias>
+		</aliases>
+        <distance>4</distance>
+		<cost>20</cost>
+        <weight-limit>10</weight-limit>
+        <argument-type>REQUIRED</argument-type>
+     </command>
+     <command>
+        <name>FLICK</name>
+        <alias>THROW</alias>
+        <distance>1</distance>
+		<cost>5</cost>
+        <weight-limit>1</weight-limit>
+     </command>
+     <command>
+        <name>TOSS</name>
+        <alias>THROW</alias>
+        <distance>2</distance>
+		<cost>10</cost>
+        <weight-limit>5</weight-limit>
+     </command>
+     <command>
+        <name>PITCH</name>
+        <alias>THROW</alias>
+     </command>
+     <command>
+        <name>HURL</name>
+        <alias>THROW</alias>
+        <distance>2</distance>
+        <cost>40</cost>
+        <weight-limit>25</weight-limit>
+     </command>
+</dictionary>

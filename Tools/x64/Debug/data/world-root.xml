@@ -1,0 +1,27 @@
+<?xml version=*1.0" encoding="UTF-8?>
+
+<!-- TAG NAMES CANNOT BEGIN WITH A DIGIT.
+     TAG NAMES CANNOT USE SPACES.
+     MULTIPLE WORDS MUST BE SEPARATED WITH A DASH.
+     THERE MUST BE A ROOT TAG ENCLOSING ALL THE OTHER TAGS.
+-->
+
+<!-- LEVEL 0 -->
+<world>
+    <!--name>Ryan World is a very very nice world with many fine places to visit</name-->
+    <!--name>Ryan World
+    is a very very nice world
+    with many fine places to visit
+    </name-->
+    <!--name>
+    Ryan World is a very very nice world
+    with many fine places to visit
+    </name-->
+    <name>
+    Ryan World is a very very nice world
+    with many fine places to visit</name>
+    <description>The top level</description>
+    <rows>100</rows>
+    <cols>100</cols>
+    <moveable>false</moveable>
+</world>

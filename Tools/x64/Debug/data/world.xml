@@ -1,0 +1,84 @@
+<?xml version=*1.0" encoding="UTF-8?>
+
+<!-- TAG NAMES CANNOT BEGIN WITH A DIGIT.
+     TAG NAMES CANNOT USE SPACES.
+     MULTIPLE WORDS MUST BE SEPARATED WITH A DASH.
+     THERE MUST BE A ROOT TAG ENCLOSING ALL THE OTHER TAGS.
+-->
+
+<!--
+    Attributes of a tree (tag)
+    1.  It only has a key (the tag name), there is never a value (text) between open-tag-close-> and close-tag-open-<
+    2.  It has no nodes (no tags inside) between its open and close tags
+
+-->
+
+<!-- LEVEL 0 -->
+<world>
+    <!--name>Ryan World is a very very nice world with many fine places to visit</name-->
+    <!--name>Ryan World
+    is a very very nice world
+    with many fine places to visit
+    </name-->
+    <!--name>
+    Ryan World is a very very nice world
+    with many fine places to visit
+    </name-->
+    
+    
+    <!-- ERROR: 1+ LINE BETWEEN OPEN AND CLOSE TAGS DOES NOT ALWAYS INDICATE THE TAG IS A TREE -->
+    <name>
+    Ryan World is a very very nice world
+    with many fine places to visit</name>
+    <description>The top level</description>
+    <rows>100</rows>
+    <cols>100</cols>
+    <moveable>false</moveable>
+    
+    <!-- LEVEL 1 -->
+    <actor-level>
+        <name>Ryan's Castle</name>
+        <description>Ryan's very nice and roomy castle</description>
+        <rows>80</rows>
+        <cols>80</cols>
+        <moveable>false</moveable>
+        
+        <!-- LEVEL 2 -->
+        <location>
+            <name>Ryan World</name>
+            <row>50</row>
+            <col>50</col>
+            <direction>south</direction>
+        </location>
+    </actor-level>
+
+    <actor-level>
+        <name>Ryan's Dungeon</name>
+        <description>Ryan's very nice and roomy dungeon</description>
+        <rows>10</rows>
+        <cols>10</cols>
+        <moveable>false</moveable>
+        
+        <location>
+            <name>Ryan's Castle</name>
+            <row>40</row>
+            <col>40</col>
+            <direction>down</direction>
+        </location>
+    </actor-level>
+
+    <actor-level>
+        <name>The Strecher Room</name>
+        <description>For increasing your height</description>
+        <rows>5</rows>
+        <cols>5</cols>
+        <moveable>false</moveable>
+        
+        <location>
+            <name>Ryan's Dungeon</name>
+            <row>1</row>
+            <col>1</col>
+            <direction>west</direction>
+        </location>
+    </actor-level>
+</world>
