@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<magic>
+	<players>
+		<min>2</min>
+		<max>2</max>
+		<life>20</life>
+		<draw>7</draw>
+		<cards>60</cards>
+	</players>
+</magic>
