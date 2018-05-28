@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<card-deck>
+	<!-- #1 -->
+	<card>
+		<name>Chandra, Torch of Defiance</name>
+		<type>LEGENDARY</type>
+		<type>PLANESWALKER</type>
+		<planeswalker-type>CHANDRA</planeswalker-type>
+		<mana>
+			<cost>2</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>2</cost>
+			<color>RED</color>
+		</mana>		
+		<!-- HOW TO ACCOUNT FOR +- IN TEXT ??? -->
+		<text>
+		+1: Exile the top card of your library. You may cast that card. If you don't, Chandra, Torch of Defiance deals 2 damage to each opponent.
+		+1: Add 2 Red mana to your mana pool.
+		−3: Chandra, Torch of Defiance deals 4 damage to target creature.
+		−7: You get an emblem with "Whenever you cast a spell, this emblem deals 5 damage to target creature or player.
+		</text>
+		<!-- NEW TAG FOR Planeswalker -->
+		<loyalty>4</loyalty>	
+	</card>
+	<!-- #2 (1 OF 4) -->
+	<card>
+		<name>Soul-Scar Mage</name>
+		<type>CREATURE</type>
+		<creature-type>WIZARD</creature-type>
+		<creature-type>HUMAN</creature-type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<text>
+		Prowess.
+		If a source you control would deal noncombat damage to a creature an opponent controls, 
+		put that many -1/-1 counters on that creature instead.
+		</text>
+		<!-- NEW TAGS -->
+		<power>4</power>
+		<toughness>4</toughness>
+	</card>
+	<!-- #3 (2 OF 4) -->
+	<card>
+		<name>Soul-Scar Mage</name>
+		<type>CREATURE</type>
+		<creature-type>WIZARD</creature-type>
+		<creature-type>HUMAN</creature-type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<text>
+		Prowess.
+		If a source you control would deal noncombat damage to a creature an opponent controls, 
+		put that many -1/-1 counters on that creature instead.
+		</text>
+		<!-- NEW TAGS -->
+		<power>4</power>
+		<toughness>4</toughness>
+	</card>
+	<!-- #4 (3 OF 4) -->
+	<card>
+		<name>Soul-Scar Mage</name>
+		<type>CREATURE</type>
+		<creature-type>WIZARD</creature-type>
+		<creature-type>HUMAN</creature-type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<text>
+		Prowess.
+		If a source you control would deal noncombat damage to a creature an opponent controls, 
+		put that many -1/-1 counters on that creature instead.
+		</text>
+		<!-- NEW TAGS -->
+		<power>4</power>
+		<toughness>4</toughness>
+	</card>
+	<!-- #5 (4 OF 4) -->
+	<card>
+		<name>Soul-Scar Mage</name>
+		<type>CREATURE</type>
+		<creature-type>WIZARD</creature-type>
+		<creature-type>HUMAN</creature-type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<text>
+		Prowess.
+		If a source you control would deal noncombat damage to a creature an opponent controls, 
+		put that many -1/-1 counters on that creature instead.
+		</text>
+		<!-- NEW TAGS -->
+		<power>4</power>
+		<toughness>4</toughness>
+	</card>
+	<!-- #6 (1 OF 4) -->
+ 	<card>
+		<name>Bomat Courier</name>
+		<type>ARTIFACT</type>
+		<type>CREATURE</type>
+		<creature-type>CONSTRUCT</creature-type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<text>
+		Haste.
+		Whenever Bomat Courier attacks, exile the top card of your library face down. (You can't look at it.)
+		Red, Discard your hand, Sacrifice Bomat Courier: Put all cards exiled with Bomat Courier into their owners' hands.
+		</text>
+		<!-- NEW TAGS -->
+		<power>1</power>
+		<toughness>1</toughness>
+	</card>
+	<!-- #7 (2 OF 4) -->
+	<card>
+		<name>Bomat Courier</name>
+		<type>ARTIFACT</type>
+		<type>CREATURE</type>
+		<creature-type>CONSTRUCT</creature-type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<text>
+		Haste.
+		Whenever Bomat Courier attacks, exile the top card of your library face down. (You can't look at it.)
+		Red, Discard your hand, Sacrifice Bomat Courier: Put all cards exiled with Bomat Courier into their owners' hands.
+		</text>
+		<!-- NEW TAGS -->
+		<power>1</power>
+		<toughness>1</toughness>
+	</card>
+	<!-- #8 (3 OF 4) -->
+	<card>
+		<name>Bomat Courier</name>
+				<type>ARTIFACT</type>
+		<type>CREATURE</type>
+		<creature-type>CONSTRUCT</creature-type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<text>
+		Haste.
+		Whenever Bomat Courier attacks, exile the top card of your library face down. (You can't look at it.)
+		Red, Discard your hand, Sacrifice Bomat Courier: Put all cards exiled with Bomat Courier into their owners' hands.
+		</text>
+		<!-- NEW TAGS -->
+		<power>1</power>
+		<toughness>1</toughness>
+	</card>
+	<!-- #9 (4 OF 4) -->
+	<card>
+		<name>Bomat Courier</name>
+				<type>ARTIFACT</type>
+		<type>CREATURE</type>
+		<creature-type>CONSTRUCT</creature-type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<text>
+		Haste.
+		Whenever Bomat Courier attacks, exile the top card of your library face down. (You can't look at it.)
+		Red, Discard your hand, Sacrifice Bomat Courier: Put all cards exiled with Bomat Courier into their owners' hands.
+		</text>
+		<!-- NEW TAGS -->
+		<power>1</power>
+		<toughness>1</toughness>
+	</card>
+	<!-- #10 (1 OF 3) -->
+	<card>
+		<name>Kari Zev, Skyship Raider</name>
+		<type>LEGENDARY</type>
+		<type>CREATURE</type>
+		<creature-type>HUMAN</creature-type>
+		<creature-type>PIRATE</creature-type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<text>
+		Haste.
+		Whenever Bomat Courier attacks, exile the top card of your library face down. (You can't look at it.)
+		Red, Discard your hand, Sacrifice Bomat Courier: Put all cards exiled with Bomat Courier into their owners' hands.
+		</text>
+		<!-- NEW TAGS -->
+		<power>1</power>
+		<toughness>1</toughness>
+	</card>
+	<!-- #11 (2 OF 3) -->
+	<card>
+		<name>Kari Zev, Skyship Raider</name>
+		<type>LEGENDARY</type>
+		<type>CREATURE</type>
+		<creature-type>HUMAN</creature-type>
+		<creature-type>PIRATE</creature-type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<text>
+		Haste.
+		Whenever Bomat Courier attacks, exile the top card of your library face down. (You can't look at it.)
+		Red, Discard your hand, Sacrifice Bomat Courier: Put all cards exiled with Bomat Courier into their owners' hands.
+		</text>
+		<!-- NEW TAGS -->
+		<power>1</power>
+		<toughness>1</toughness>
+	</card>
+	<!-- #12 (3 OF 3) -->
+	<card>
+		<name>Kari Zev, Skyship Raider</name>
+		<type>LEGENDARY</type>
+		<type>CREATURE</type>
+		<creature-type>HUMAN</creature-type>
+		<creature-type>PIRATE</creature-type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<text>
+		Haste.
+		Whenever Bomat Courier attacks, exile the top card of your library face down. (You can't look at it.)
+		Red, Discard your hand, Sacrifice Bomat Courier: Put all cards exiled with Bomat Courier into their owners' hands.
+		</text>
+		<!-- NEW TAGS -->
+		<power>1</power>
+		<toughness>1</toughness>
+	</card>
+	<!-- #13 (1 OF 4) -->
+	<card>
+		<name>Earthshaker Khenra</name>
+		<type>CREATURE</type>
+		<creature-type>JACKAL</creature-type>
+		<creature-type>WARRIOR</creature-type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<text>
+		Haste.
+		When Earthshaker Khenra enters the battlefield, target creature with power less than or equal to Earthshaker Khenra's power can't block this turn.
+		Eternalize 4RedRed (4RedRed, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Jackal Warrior with no mana cost. Eternalize only as a sorcery.)
+		</text>
+		<!-- NEW TAGS -->
+		<power>2</power>
+		<toughness>1</toughness>
+	</card>
+	<!-- #14 (2 OF 4) -->
+	<card>
+		<name>Earthshaker Khenra</name>
+		<type>CREATURE</type>
+		<creature-type>JACKAL</creature-type>
+		<creature-type>WARRIOR</creature-type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<text>
+		Haste.
+		When Earthshaker Khenra enters the battlefield, target creature with power less than or equal to Earthshaker Khenra's power can't block this turn.
+		Eternalize 4RedRed (4RedRed, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Jackal Warrior with no mana cost. Eternalize only as a sorcery.)
+		</text>
+		<!-- NEW TAGS -->
+		<power>2</power>
+		<toughness>1</toughness>
+	</card>
+	<!-- #15 (3 OF 4) -->
+	<card>
+		<name>Earthshaker Khenra</name>
+		<type>CREATURE</type>
+		<creature-type>JACKAL</creature-type>
+		<creature-type>WARRIOR</creature-type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<text>
+		Haste.
+		When Earthshaker Khenra enters the battlefield, target creature with power less than or equal to Earthshaker Khenra's power can't block this turn.
+		Eternalize 4RedRed (4RedRed, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Jackal Warrior with no mana cost. Eternalize only as a sorcery.)
+		</text>
+		<!-- NEW TAGS -->
+		<power>2</power>
+		<toughness>1</toughness>
+	</card>
+	<!-- #16 (4 OF 4) -->
+	<card>
+		<name>Earthshaker Khenra</name>
+		<type>CREATURE</type>
+		<creature-type>JACKAL</creature-type>
+		<creature-type>WARRIOR</creature-type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<text>
+		Haste.
+		When Earthshaker Khenra enters the battlefield, target creature with power less than or equal to Earthshaker Khenra's power can't block this turn.
+		Eternalize 4RedRed (4RedRed, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Jackal Warrior with no mana cost. Eternalize only as a sorcery.)
+		</text>
+		<!-- NEW TAGS -->
+		<power>2</power>
+		<toughness>1</toughness>
+	</card>
+	<!-- #17 (1 OF 4) -->
+	<card>
+		<name>Ahn-Crop Crasher</name>
+		<type>CREATURE</type>
+		<creature-type>MINOTAUR</creature-type>
+		<creature-type>WARRIOR</creature-type>
+		<mana>
+			<cost>2</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<!-- WE NEED TO REMOVE QUOTES FROM TEXT BEFORE SAVING IT TO PREVENT STRING ERRORS -->
+		<text>
+		Haste.
+		You may exert Ahn-Crop Crasher as it attacks. When you do, target creature can't block this turn. (An exerted creature won't untap during your next untap step.).
+		"Hesitation breeds dissension. To be worthy of the next life, you must never look back."
+		—Anep, vizier of Hazoret		
+		</text>
+		<!-- NEW TAGS -->
+		<power>3</power>
+		<toughness>2</toughness>
+	</card>
+	<!-- #18 (2 OF 4) -->
+	<card>
+		<name>Ahn-Crop Crasher</name>
+		<type>CREATURE</type>
+		<creature-type>MINOTAUR</creature-type>
+		<creature-type>WARRIOR</creature-type>
+		<mana>
+			<cost>2</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<!-- WE NEED TO REMOVE QUOTES FROM TEXT BEFORE SAVING IT TO PREVENT STRING ERRORS -->
+		<text>
+		Haste.
+		You may exert Ahn-Crop Crasher as it attacks. When you do, target creature can't block this turn. (An exerted creature won't untap during your next untap step.).
+		"Hesitation breeds dissension. To be worthy of the next life, you must never look back."
+		—Anep, vizier of Hazoret		
+		</text>
+		<!-- NEW TAGS -->
+		<power>3</power>
+		<toughness>2</toughness>
+	</card>
+	<!-- #19 (3 OF 4) -->
+	<card>
+		<name>Ahn-Crop Crasher</name>
+		<type>CREATURE</type>
+		<creature-type>MINOTAUR</creature-type>
+		<creature-type>WARRIOR</creature-type>
+		<mana>
+			<cost>2</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<!-- WE NEED TO REMOVE QUOTES FROM TEXT BEFORE SAVING IT TO PREVENT STRING ERRORS -->
+		<text>
+		Haste.
+		You may exert Ahn-Crop Crasher as it attacks. When you do, target creature can't block this turn. (An exerted creature won't untap during your next untap step.).
+		"Hesitation breeds dissension. To be worthy of the next life, you must never look back."
+		—Anep, vizier of Hazoret		
+		</text>
+		<!-- NEW TAGS -->
+		<power>3</power>
+		<toughness>2</toughness>
+	</card>
+	<!-- #20 (4 OF 4) -->
+	<card>
+		<name>Ahn-Crop Crasher</name>
+		<type>CREATURE</type>
+		<creature-type>MINOTAUR</creature-type>
+		<creature-type>WARRIOR</creature-type>
+		<mana>
+			<cost>2</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<!-- WE NEED TO REMOVE QUOTES FROM TEXT BEFORE SAVING IT TO PREVENT STRING ERRORS -->
+		<text>
+		Haste.
+		You may exert Ahn-Crop Crasher as it attacks. When you do, target creature can't block this turn. (An exerted creature won't untap during your next untap step.).
+		"Hesitation breeds dissension. To be worthy of the next life, you must never look back."
+		—Anep, vizier of Hazoret		
+		</text>
+		<!-- NEW TAGS -->
+		<power>3</power>
+		<toughness>2</toughness>
+	</card>
+	<!-- #21 (1 OF 4) -->
+	<card>
+		<name>Hazoret the Fervent</name>
+		<type>LEGENDARY</type>
+		<type>CREATURE</type>
+		<creature-type>GOD</creature-type>		
+		<mana>
+			<cost>3</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<!-- WE NEED TO REMOVE QUOTES FROM TEXT BEFORE SAVING IT TO PREVENT STRING ERRORS -->
+		<text>
+		Indestructible, haste.
+		Hazoret the Fervent can't attack or block unless you have one or fewer cards in hand.
+		2 Colorless, 1 Red, Discard a card: Hazoret deals 2 damage to each opponent.	
+		</text>
+		<!-- NEW TAGS -->
+		<power>5</power>
+		<toughness>4</toughness>
+	</card>
+	<!-- #22 (2 OF 4) -->
+	<card>
+		<name>Hazoret the Fervent</name>
+		<type>LEGENDARY</type>
+		<type>CREATURE</type>
+		<creature-type>GOD</creature-type>		
+		<mana>
+			<cost>3</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<!-- WE NEED TO REMOVE QUOTES FROM TEXT BEFORE SAVING IT TO PREVENT STRING ERRORS -->
+		<text>
+		Indestructible, haste.
+		Hazoret the Fervent can't attack or block unless you have one or fewer cards in hand.
+		2 Colorless, 1 Red, Discard a card: Hazoret deals 2 damage to each opponent.	
+		</text>
+		<!-- NEW TAGS -->
+		<power>5</power>
+		<toughness>4</toughness>
+	</card>
+	<!-- #23 (3 OF 4) -->
+	<card>
+		<name>Hazoret the Fervent</name>
+		<type>LEGENDARY</type>
+		<type>CREATURE</type>
+		<creature-type>GOD</creature-type>		
+		<mana>
+			<cost>3</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<!-- WE NEED TO REMOVE QUOTES FROM TEXT BEFORE SAVING IT TO PREVENT STRING ERRORS -->
+		<text>
+		Indestructible, haste.
+		Hazoret the Fervent can't attack or block unless you have one or fewer cards in hand.
+		2 Colorless, 1 Red, Discard a card: Hazoret deals 2 damage to each opponent.	
+		</text>
+		<!-- NEW TAGS -->
+		<power>5</power>
+		<toughness>4</toughness>
+	</card>
+	<!-- #24 (4 OF 4) -->
+	<card>
+		<name>Hazoret the Fervent</name>
+		<type>LEGENDARY</type>
+		<type>CREATURE</type>
+		<creature-type>GOD</creature-type>		
+		<mana>
+			<cost>3</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<!-- WE NEED TO REMOVE QUOTES FROM TEXT BEFORE SAVING IT TO PREVENT STRING ERRORS -->
+		<text>
+		Indestructible, haste.
+		Hazoret the Fervent can't attack or block unless you have one or fewer cards in hand.
+		2 Colorless, 1 Red, Discard a card: Hazoret deals 2 damage to each opponent.	
+		</text>
+		<!-- NEW TAGS -->
+		<power>5</power>
+		<toughness>4</toughness>
+	</card>
+	<!-- #25 (1 OF 4) -->
+	<card>
+		<name>Shock</name>
+		<type>INSTANT</type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<!-- WE NEED TO REMOVE QUOTES FROM TEXT BEFORE SAVING IT TO PREVENT STRING ERRORS -->
+		<text>
+		Shock deals 2 damage to target creature or player.
+		The tools of invention became the weapons of revolution.
+		</text>
+	</card>
+	<!-- #26 (2 OF 4) -->
+	<card>
+		<name>Shock</name>
+		<type>INSTANT</type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<!-- WE NEED TO REMOVE QUOTES FROM TEXT BEFORE SAVING IT TO PREVENT STRING ERRORS -->
+		<text>
+		Shock deals 2 damage to target creature or player.
+		The tools of invention became the weapons of revolution.
+		</text>
+	</card>
+	<!-- #27 (3 OF 4) -->
+	<card>
+		<name>Shock</name>
+		<type>INSTANT</type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<!-- WE NEED TO REMOVE QUOTES FROM TEXT BEFORE SAVING IT TO PREVENT STRING ERRORS -->
+		<text>
+		Shock deals 2 damage to target creature or player.
+		The tools of invention became the weapons of revolution.
+		</text>
+	</card>
+	<!-- #28 (4 OF 4) -->
+	<card>
+		<name>Shock</name>
+		<type>INSTANT</type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<!-- WE NEED TO REMOVE QUOTES FROM TEXT BEFORE SAVING IT TO PREVENT STRING ERRORS -->
+		<text>
+		Shock deals 2 damage to target creature or player.
+		The tools of invention became the weapons of revolution.
+		</text>
+	</card>
+	<!-- #29 (1 OF 4) -->
+	<card>
+		<name>Abrade</name>
+		<type>INSTANT</type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<!-- WE NEED TO REMOVE QUOTES FROM TEXT BEFORE SAVING IT TO PREVENT STRING ERRORS -->
+		<text>
+		Choose one —
+		- Abrade deals 3 damage to target creature.
+		- Destroy target artifact.
+		The desert is a voracious beast, devouring both flesh and stone.
+		</text>
+	</card>
+	<!-- #30 (2 OF 4) -->
+	<card>
+		<name>Abrade</name>
+		<type>INSTANT</type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<!-- WE NEED TO REMOVE QUOTES FROM TEXT BEFORE SAVING IT TO PREVENT STRING ERRORS -->
+		<text>
+		Choose one —
+		- Abrade deals 3 damage to target creature.
+		- Destroy target artifact.
+		The desert is a voracious beast, devouring both flesh and stone.
+		</text>
+	</card>
+	<!-- #31 (3 OF 4) -->
+	<card>
+		<name>Abrade</name>
+		<type>INSTANT</type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<!-- WE NEED TO REMOVE QUOTES FROM TEXT BEFORE SAVING IT TO PREVENT STRING ERRORS -->
+		<text>
+		Choose one —
+		- Abrade deals 3 damage to target creature.
+		- Destroy target artifact.
+		The desert is a voracious beast, devouring both flesh and stone.
+		</text>
+	</card>
+	<!-- #32 (4 OF 4) -->
+	<card>
+		<name>Abrade</name>
+		<type>INSTANT</type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<!-- WE NEED TO REMOVE QUOTES FROM TEXT BEFORE SAVING IT TO PREVENT STRING ERRORS -->
+		<text>
+		Choose one —
+		- Abrade deals 3 damage to target creature.
+		- Destroy target artifact.
+		The desert is a voracious beast, devouring both flesh and stone.
+		</text>
+	</card>
+	<!-- #33 (1 OF 4) -->
+	<card>
+		<name>Lightning Strike</name>
+		<type>INSTANT</type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<!-- WE NEED TO REMOVE QUOTES FROM TEXT BEFORE SAVING IT TO PREVENT STRING ERRORS -->
+		<text>
+		Lightning Strike deals 3 damage to target creature or player.
+		"Storm on the horizon, cap'n!"
+		—Grick Doobin, last words
+		</text>
+	</card>
+	<!-- #34 (2 OF 4) -->
+	<card>
+		<name>Lightning Strike</name>
+		<type>INSTANT</type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<!-- WE NEED TO REMOVE QUOTES FROM TEXT BEFORE SAVING IT TO PREVENT STRING ERRORS -->
+		<text>
+		Lightning Strike deals 3 damage to target creature or player.
+		"Storm on the horizon, cap'n!"
+		—Grick Doobin, last words
+		</text>
+	</card>
+	<!-- #35 (3 OF 4) -->
+	<card>
+		<name>Lightning Strike</name>
+		<type>INSTANT</type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<!-- WE NEED TO REMOVE QUOTES FROM TEXT BEFORE SAVING IT TO PREVENT STRING ERRORS -->
+		<text>
+		Lightning Strike deals 3 damage to target creature or player.
+		"Storm on the horizon, cap'n!"
+		—Grick Doobin, last words
+		</text>
+	</card>
+	<!-- #36 (4 OF 4) -->
+	<card>
+		<name>Lightning Strike</name>
+		<type>INSTANT</type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+		<!-- WE NEED TO REMOVE QUOTES FROM TEXT BEFORE SAVING IT TO PREVENT STRING ERRORS -->
+		<text>
+		Lightning Strike deals 3 damage to target creature or player.
+		"Storm on the horizon, cap'n!"
+		—Grick Doobin, last words
+		</text>
+	</card>
+	<!-- #37 (1 OF 15) -->
+	<card>
+		<name>Mountain</name>
+		<!-- TREAT SUPERTYPE BASIC AS LAND -->
+		<!--type>Basic Land - Mountain</type-->
+		<type>LAND</type>
+		<land-type>MOUNTAIN</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+	</card>
+	<!-- #38 (2 OF 15) -->
+	<card>
+		<name>Mountain</name>
+		<!-- TREAT SUPERTYPE BASIC AS LAND -->
+		<!--type>Basic Land - Mountain</type-->
+		<type>LAND</type>
+		<land-type>MOUNTAIN</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+	</card>
+	<!-- #39 (3 OF 15) -->
+	<card>
+		<name>Mountain</name>
+		<!-- TREAT SUPERTYPE BASIC AS LAND -->
+		<!--type>Basic Land - Mountain</type-->
+		<type>LAND</type>
+		<land-type>MOUNTAIN</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+	</card>
+	<!-- #40 (4 OF 15) -->
+	<card>
+		<name>Mountain</name>
+		<!-- TREAT SUPERTYPE BASIC AS LAND -->
+		<!--type>Basic Land - Mountain</type-->
+		<type>LAND</type>
+		<land-type>MOUNTAIN</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+	</card>
+	<!-- #41 (5 OF 15) -->
+	<card>
+		<name>Mountain</name>
+		<!-- TREAT SUPERTYPE BASIC AS LAND -->
+		<!--type>Basic Land - Mountain</type-->
+		<type>LAND</type>
+		<land-type>MOUNTAIN</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+	</card>
+	<!-- #42 (6 OF 15) -->
+	<card>
+		<name>Mountain</name>
+		<!-- TREAT SUPERTYPE BASIC AS LAND -->
+		<!--type>Basic Land - Mountain</type-->
+		<type>LAND</type>
+		<land-type>MOUNTAIN</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+	</card>
+	<!-- #43 (7 OF 15) -->
+	<card>
+		<name>Mountain</name>
+		<!-- TREAT SUPERTYPE BASIC AS LAND -->
+		<!--type>Basic Land - Mountain</type-->
+		<type>LAND</type>
+		<land-type>MOUNTAIN</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+	</card>
+	<!-- #44 (8 OF 15) -->
+	<card>
+		<name>Mountain</name>
+		<!-- TREAT SUPERTYPE BASIC AS LAND -->
+		<!--type>Basic Land - Mountain</type-->
+		<type>LAND</type>
+		<land-type>MOUNTAIN</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+	</card>
+	<!-- #45 (9 OF 15) -->
+	<card>
+		<name>Mountain</name>
+		<!-- TREAT SUPERTYPE BASIC AS LAND -->
+		<!--type>Basic Land - Mountain</type-->
+		<type>LAND</type>
+		<land-type>MOUNTAIN</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+	</card>
+	<!-- #46 (10 OF 15) -->
+	<card>
+		<name>Mountain</name>
+		<!-- TREAT SUPERTYPE BASIC AS LAND -->
+		<!--type>Basic Land - Mountain</type-->
+		<type>LAND</type>
+		<land-type>MOUNTAIN</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+	</card>
+	<!-- #47 (11 OF 15) -->
+	<card>
+		<name>Mountain</name>
+		<!-- TREAT SUPERTYPE BASIC AS LAND -->
+		<!--type>Basic Land - Mountain</type-->
+		<type>LAND</type>
+		<land-type>MOUNTAIN</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+	</card>
+	<!-- #48 (12 OF 15) -->
+	<card>
+		<name>Mountain</name>
+		<!-- TREAT SUPERTYPE BASIC AS LAND -->
+		<!--type>Basic Land - Mountain</type-->
+		<type>LAND</type>
+		<land-type>MOUNTAIN</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+	</card>
+	<!-- #49 (13 OF 15) -->
+	<card>
+		<name>Mountain</name>
+		<!-- TREAT SUPERTYPE BASIC AS LAND -->
+		<!--type>Basic Land - Mountain</type-->
+		<type>LAND</type>
+		<land-type>MOUNTAIN</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+	</card>
+	<!-- #50 (14 OF 15) -->
+	<card>
+		<name>Mountain</name>
+		<!-- TREAT SUPERTYPE BASIC AS LAND -->
+		<!--type>Basic Land - Mountain</type-->
+		<type>LAND</type>
+		<land-type>MOUNTAIN</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+	</card>
+	<!-- #51 (15 OF 15) -->
+	<card>
+		<name>Mountain</name>
+		<!-- TREAT SUPERTYPE BASIC AS LAND -->
+		<!--type>Basic Land - Mountain</type-->
+		<type>LAND</type>
+		<land-type>MOUNTAIN</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>RED</color>
+		</mana>
+	</card>
+	<!-- #52 -->
+	<card>
+		<name>Scavenger Grounds</name>
+		<type>LAND</type>
+		<land-type>DESERT</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<text>
+		Tap: Add Colorless to your mana pool.
+		2, Tap, Sacrifice a Desert: Exile all cards from all graveyards.
+		When the last scrap of flesh is scoured away, the Curse of Wandering ends. Then the dead may sleep.
+		</text>
+	</card>
+	<!-- #53 (1 OF 4) -->
+	<card>
+		<name>Ramunap Ruins</name>
+		<type>LAND</type>
+		<land-type>DESERT</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<text>
+		Tap: Add Colorless to your mana pool.
+		Tap, Pay 1 life: Add Red to your mana pool.
+		2 Red, Tap, Sacrifice a Desert: Ramunap Ruins deals 2 damage to each opponent.
+		</text>
+	</card>
+	<!-- #54 (2 OF 4) -->
+	<card>
+		<name>Ramunap Ruins</name>
+		<type>LAND</type>
+		<land-type>DESERT</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<text>
+		Tap: Add Colorless to your mana pool.
+		Tap, Pay 1 life: Add Red to your mana pool.
+		2 Red, Tap, Sacrifice a Desert: Ramunap Ruins deals 2 damage to each opponent.
+		</text>
+	</card>
+	<!-- #55 (3 OF 4) -->
+	<card>
+		<name>Ramunap Ruins</name>
+		<type>LAND</type>
+		<land-type>DESERT</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<text>
+		Tap: Add Colorless to your mana pool.
+		Tap, Pay 1 life: Add Red to your mana pool.
+		2 Red, Tap, Sacrifice a Desert: Ramunap Ruins deals 2 damage to each opponent.
+		</text>
+	</card>
+	<!-- #56 (4 OF 4) -->
+	<card>
+		<name>Ramunap Ruins</name>
+		<type>LAND</type>
+		<land-type>DESERT</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<text>
+		Tap: Add Colorless to your mana pool.
+		Tap, Pay 1 life: Add Red to your mana pool.
+		2 Red, Tap, Sacrifice a Desert: Ramunap Ruins deals 2 damage to each opponent.
+		</text>
+	</card>
+	<!-- #57 (1 OF 4) -->
+	<card>
+		<name>Sunscorched Desert</name>
+		<type>LAND</type>
+		<land-type>DESERT</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<text>
+		When Sunscorched Desert enters the battlefield, it deals 1 damage to target player.
+		Tap: Add Colorless to your mana pool.
+		The only relief in sight is a mirage.
+		</text>
+	</card>
+	<!-- #58 (2 OF 4) -->
+	<card>
+		<name>Sunscorched Desert</name>
+		<type>LAND</type>
+		<land-type>DESERT</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<text>
+		When Sunscorched Desert enters the battlefield, it deals 1 damage to target player.
+		Tap: Add Colorless to your mana pool.
+		The only relief in sight is a mirage.
+		</text>
+	</card>
+	<!-- #59 (3 OF 4) -->
+	<card>
+		<name>Sunscorched Desert</name>
+		<type>LAND</type>
+		<land-type>DESERT</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<text>
+		When Sunscorched Desert enters the battlefield, it deals 1 damage to target player.
+		Tap: Add Colorless to your mana pool.
+		The only relief in sight is a mirage.
+		</text>
+	</card>
+	<!-- #60 (4 OF 4) -->
+	<card>
+		<name>Sunscorched Desert</name>
+		<type>LAND</type>
+		<land-type>DESERT</land-type>
+		<mana>
+			<cost>1</cost>
+			<color>COLORLESS</color>
+		</mana>
+		<text>
+		When Sunscorched Desert enters the battlefield, it deals 1 damage to target player.
+		Tap: Add Colorless to your mana pool.
+		The only relief in sight is a mirage.
+		</text>
+	</card>
+</card-deck>

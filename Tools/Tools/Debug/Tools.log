@@ -1,0 +1,14 @@
+﻿  tools.cpp
+c:\users\javier\documents\visual studio 2015\projects\tools\tools\tools.cpp(70): warning C4018: '<': signed/unsigned mismatch
+c:\users\javier\documents\visual studio 2015\projects\tools\tools\tools.cpp(144): warning C4018: '<': signed/unsigned mismatch
+c:\users\javier\documents\visual studio 2015\projects\tools\tools\tools.cpp(201): warning C4018: '<': signed/unsigned mismatch
+c:\users\javier\documents\visual studio 2015\projects\tools\tools\tools.cpp(255): warning C4018: '<': signed/unsigned mismatch
+c:\users\javier\documents\visual studio 2015\projects\tools\tools\tools.cpp(308): warning C4018: '<': signed/unsigned mismatch
+c:\users\javier\documents\visual studio 2015\projects\tools\tools\tools.cpp(342): warning C4129: '.': unrecognized character escape sequence
+c:\users\javier\documents\visual studio 2015\projects\tools\tools\tools.cpp(493): warning C4101: 'e': unreferenced local variable
+c:\users\javier\documents\visual studio 2015\projects\tools\tools\tools.cpp(497): warning C4101: 'e': unreferenced local variable
+c:\users\javier\documents\visual studio 2015\projects\tools\tools\tools.cpp(581): warning C4101: 'e': unreferenced local variable
+c:\users\javier\documents\visual studio 2015\projects\tools\tools\tools.cpp(585): warning C4101: 'e': unreferenced local variable
+c:\users\javier\documents\visual studio 2015\projects\tools\tools\tools.cpp(641): warning C4101: 'e': unreferenced local variable
+c:\users\javier\documents\visual studio 2015\projects\tools\tools\tools.cpp(709): warning C4101: 'e': unreferenced local variable
+  Tools.vcxproj -> C:\Users\Javier\Documents\Visual Studio 2015\Projects\Tools\Debug\Tools.lib

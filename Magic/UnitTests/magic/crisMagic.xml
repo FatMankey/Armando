@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<card-deck>
+    <!-- THE COMMENT BELOW, IF IT ENDS IN DOUBLE-> CRASHES THE TOOLS APP WITH VECTOR ITERATOR CANNOT BE INCREMENTED -->
+	<!--Min 17 Basic Land cards per deck -->>
+	<card>
+		<type>BASIC-LAND</type>
+		<mana>1</mana>
+		<land-type>FOREST</land-type>
+		<color>GREEN</color>
+		<description></description>
+	
+	
+	
+	</card>
+	
+	<card>
+		<type>CREATURE</type>
+		<creature-type>DEMON</creature-type>
+		<mana>-9</mana>
+	</card>
+
+</card-deck>

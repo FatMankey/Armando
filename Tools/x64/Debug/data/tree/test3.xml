@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Tree taversal example from https://en.wikipedia.org/wiki/Tree_traversal -->
+<!--
+				 F
+					 
+		 B				G
+		 
+	 A	     D				I
+	 
+		  C	    E		 H
+		
+ -->
+
+<F>
+	<B>B</B>
+	
+	<A>A</A>
+		
+	<D>D</D>
+	
+	<C>C</C>
+		
+	<E>E</E>
+
+	<G>G</G>
+	
+	<I>I</I>
+	
+	<H>H</H>
+			
+</F>

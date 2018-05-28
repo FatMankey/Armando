@@ -1,0 +1,161 @@
+<!-- ERROR CAN NO LONGER BE REPLICATED: xml tag error, .version CAUSES this tag to be miss id'ed as a data tag, two root trees found -->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<card-deck>
+    <!-- DONE - ERROR, MISSING ROOT TAG. Typing leading periods ahead of an open tag causes the error.
+    NOW STRIPPING ALL CHARACTERS PRECEEDING THE OPEN TAG CHAR <, SUCH AS THE PERIODS BELOW -->
+    <!-- DONE - THE COMMENT BELOW, IF IT ENDS IN DOUBLE-> CRASHES THE TOOLS APP WITH VECTOR ITERATOR CANNOT BE INCREMENTED.
+    NOW STRIPPING ALL CHARACTERS FOLLOWING -->
+    <!-- Min 17 Basic Land Cards per deck -->
+	
+	<!-- FLOODED GROVE CARD -->
+....<card>
+		<name>FLOODED GROVE</name>
+		<!-- ADDED -->
+		<type>LAND</type>
+		<!-- NO SUBTYPE -->
+		
+		<!-- DONE - RESTRICTION: THE NODE(S) OF A TREE CANNOT APPEAR ON THE SAME LINE AS THE TREE'S OPEN AND CLOSE TAGS -->
+        <!--description><name>text</name></description-->
+        <!-- DONE - Warning: tag without text -->
+        <!--text></text-->
+		<text>At full moon, the river seeps over its banks and crawls through the woods like a blanket of serpents.</text>
+        <!--text>
+            Card text
+        </text-->
+
+		<!-- TAP EVENT -->
+		<tap>
+			<choose>
+				<option>
+					<add>
+						<mana>
+							<color>COLORLESS</color>
+							<count>1</count>
+						</mana>
+					</add>
+				</option>
+				
+				<option>
+					<pay>
+						<mana>
+							<color>GREEN</color>
+							<count>1</count>
+						</mana>
+					</pay>
+						
+					<pay>
+						<color>BLUE</color>
+						<count>1</count>
+					</pay>
+
+					<!-- ASSUMPTION: CHOICE BELOW PRESENTED ONLY IF PLAYER ACTUALLY PAID -->
+					<choose>
+						<option>
+							<add>
+								<mana>
+									<color>GREEN</color>
+									<count>2</count>
+								</mana>
+							</add>
+						</option>
+						<option>
+							<add>
+								<mana>
+									<color>GREEN</color>
+									<count>1</count>
+								</mana>
+								<mana>
+									<color>BLUE</color>
+									<count>1</count>
+								</mana>
+							</add>
+						</option>
+						<option>
+							<add>
+								<mana>
+									<color>BLUE</color>
+									<count>2</count>
+								</mana>
+							</add>
+						</option>
+					</choose>
+				</option>
+			</choose>
+		</tap>
+	</card>
+	
+	<!-- EMRAKUL, THE AEONS TORN (aka EMMY) (A LENGENDARY CREATURE CARD) -->
+	<card>
+		<name>EMRAKUL, THE AEONS TORN</name>
+		<types>
+			<type>LENGENDARY</type>
+			<type>CREATURE</type>
+		</types>
+		
+		<subtypes>
+			<type>ELDRAZI</type>
+		</subtypes>
+		
+		<!-- NO FLAVOR-TEXT -->
+		
+		<text>
+			This spell can't be countered.\n
+			When you cast this spell, take an extra turn after this one.\n
+			Flying, protection from colored spells, annihilator 6\n
+			When Emrakul, the Aeons Torn is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.\n
+		</text>
+		
+		<!-- THIS CARD'S SELF-PROTECTION AGAINST COLOR SPECIFIED (NOT AGAINST COLORLESS) -->
+		<protection>
+			<color>RED</color>
+			<color>BLUE</color>
+			<color>GREEN</color>
+			<color>BLACK</color>
+			<color>WHITE</color>
+		</protection>
+		
+		<!-- DAMAGE IT CAN DO -->
+		<power>15</power>
+		<!-- DAMAGE IT CAN TAKE -->
+		<toughness>15</toughness>
+		
+		<!-- PLAY EVENT -->
+		<play>
+			<pay>
+				<mana>
+					<!-- COLORLESS WITH NUMBER INSIDE GRAY CIRLE: CAN BE ANY COLOR -->
+					<color>ANY</color>
+					<!-- WHAT THE PLAYER MUST PAY TO PLAY THIS CARD -->
+					<count>-15</count>
+				</mana>
+			</pay>
+		</play>
+		
+		<!-- CAST EVENT -->
+		<cast>
+			<!-- CAN BE PREVENTED FROM COMING ONTO THE BATTLEFIELD (CAN THE PLAYER BE PREVENTED FROM PLAYING THE CARD): NO -->
+			<counterable>NO</counterable>
+			<!-- THE PLAYER TAKES AN EXTRA TURN AFTER THIS TURN -->
+			<extra-turn>YES</extra-turn>
+		</cast>
+		
+		<!-- COMBAT EVENT -->
+		<combat>
+			<!-- BEFORE BLOCKING PHASE -->
+			<annihilator>6</annihilator>			
+			<!-- CAN BE BLOCKED FROM DOING DAMAGE -->
+			<blocking>
+				<flying-creature>YES</flying-creature>
+				<creature-with-reach>YES</creature-with-reach>
+			</blocking>
+		</combat>
+		
+		<!-- DEATH EVENT -->
+		<death>
+			<!-- WHEN THIS CARD IS SENT TO THE GRAVEYARD FROM ANYWHERE, SHUFFLE YOUR ENTIRE GRAVEYARD, INCLUDING THIS CARD, INTO YOUR DECK -->
+			<buried>YES</buried>
+		</death>
+    </card>
+	
+</card-deck>

@@ -1,0 +1,195 @@
+<!-- ERROR CAN NO LONGER BE REPLICATED: xml tag error, .version CAUSES this tag to be miss id'ed as a data tag, two root trees found -->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<card-deck>
+    <!-- DONE - ERROR, MISSING ROOT TAG. Typing leading periods ahead of an open tag causes the error.
+    NOW STRIPPING ALL CHARACTERS PRECEEDING THE OPEN TAG CHAR <, SUCH AS THE PERIODS BELOW -->
+    <!-- DONE - THE COMMENT BELOW, IF IT ENDS IN DOUBLE-> CRASHES THE TOOLS APP WITH VECTOR ITERATOR CANNOT BE INCREMENTED.
+    NOW STRIPPING ALL CHARACTERS FOLLOWING -->
+    <!-- Min 17 Basic Land Cards per deck -->
+	
+	<!-- FLOODED GROVE CARD -->
+....<card>
+		<!-- ADDED -->
+		<type>LAND</type>
+		<!-- NO SUBTYPE -->
+		
+		<!-- DONE - RESTRICTION: THE NODE(S) OF A TREE CANNOT APPEAR ON THE SAME LINE AS THE TREE'S OPEN AND CLOSE TAGS -->
+        <!--description><name>text</name></description-->
+        <!-- DONE - Warning: tag without text -->
+        <!--text></text-->
+		<text>At full moon, the river seeps over its banks and crawls through the woods like a blanket of serpents.</text>
+        <!--text>
+            Card text
+        </text-->
+       
+		<!-- POOL-1 OR POOL-2 (TAP (POOL-3 OR POOL-4)) -->
+		<mana-pool>
+			<!-- POOL 1 -->
+			<pool>
+				<mana>
+					<count>1</count>
+					<!-- COLORLESS WITH DIAMOND INSIDE GRAY CIRLE: MUST BE COLORLESS -->
+					<color>COLORLESS</color>
+				</mana>
+			</pool>
+			
+			<!-- TURN PLAY -->
+			<play>OR</play>
+			
+			<!-- POOL 2 -->
+			<pool>
+				<!-- MAY ALSO BE SPECIFIED ON A SINGLE MANA AS COUNT 2, COLOR GREEN -->
+				<mana>
+					<count>-1</count>
+					<color>GREEN</color>
+				</mana>
+				
+				<!-- CAN BE SPECIFED ANYWHERE WITHIN THE POOL. VALUE: OR, AND -->
+				<play>OR</play>
+				
+				<mana>
+					<count>-1</count>
+					<color>BLUE</color>
+				</mana>
+				
+				<tap>
+					<!-- POOL 3 -->
+					<pool>
+						<!-- MAY ALSO BE SPECIFIED ON A SINGLE MANA AS COUNT 2, COLOR GREEN -->
+						<mana>
+							<count>2</count>
+							<color>GREEN</color>
+						</mana>
+						
+						<!-- CAN BE SPECIFED ANYWHERE WITHIN THE POOL. VALUE: OR, AND -->
+						<play>OR</play>
+						
+						<mana>
+							<count>2</count>
+							<color>BLUE</color>
+						</mana>
+					</pool>
+			
+					<play>OR</play>
+			
+					<!-- POOL 4 -->
+					<pool>
+						<mana>
+							<count>1</count>
+							<color>GREEN</color>
+						</mana>
+						
+						<play>AND</play>
+						
+						<mana>
+							<count>1</count>
+							<color>BLUE</color>
+						</mana>			
+					</pool>
+				</tap>
+			</pool>		
+		</mana-pool>
+		
+	</card>
+	
+	<!-- EMRAKUL, THE AEONS TORN (aka EMMY) (A LENGENDARY CREATURE CARD) -->
+	<card>
+		<types>
+			<type>LENGENDARY</type>
+			<type>CREATURE</type>
+		</types>
+		
+		<subtype>
+			<type>ELDRAZI</type>
+		</subtype>
+		
+		<!-- NO FLAVOR-TEXT -->
+		
+		<mana-pool>
+			<!-- POOL 1 -->
+			<pool>
+				<mana>
+					<!-- WHAT THE PLAYER MUST PAY TO PLAY THIS CARD -->
+					<count>-15</count>
+					<!-- COLORLESS WITH NUMBER INSIDE GRAY CIRLE: CAN BE ANY COLOR -->
+					<color>ANY</color>
+				</mana>
+			</pool>
+		</mana-pool>
+
+		<rules>
+			<!-- CAN BE PREVENTED FROM COMING ONTO THE BATTLEFIELD (CAN THE PLAYER BE PREVENTED FROM PLAYING THE CARD): NO -->
+			<counterable>NO</counterable>
+			
+			<!-- BEFORE BLOCKING PHASE -->
+			<annihilator>6</annihilator>
+			
+			<!-- CAN BE BLOCKED FROM DOING DAMAGE -->
+			<blocking>
+				<flying-creature>YES</flying-creature>
+				<creature-with-reach>YES</creature-with-reach>
+			</blocking>
+			
+			<!-- THIS CARD'S SELF-PROTECTION AGAINST COLOR SPECIFIED (NOT AGAINST COLORLESS) -->
+			<protection>
+				<color>RED</color>
+				<color>BLUE</color>
+				<color>GREEN</color>
+				<color>BLACK</color>
+				<color>WHITE</color>
+			</protection>
+			
+			<!-- WHEN THIS CARD IS SENT TO THE GRAVEYARD FROM ANYWHERE, SHUFFLE YOUR ENTIRE GRAVEYARD, INCLUDING THIS CARD, INTO YOUR DECK -->
+			<burried>YES</burried>
+		
+			<!-- THE PLAYER TAKES AN EXTRA TURN AFTER THIS TURN -->
+			<extra-turn>YES</extra-turn>
+
+			<!-- DAMAGE IT CAN DO -->
+			<power>15</power>
+			<!-- DAMAGE IT CAN TAKE -->
+			<toughness>15</toughness>
+		</rules>
+		
+		<text>
+			This spell can't be countered.\n
+			When you cast this spell, take an extra turn after this one.\n
+			Flying, protection from colored spells, annihilator 6\n
+			When Emrakul, the Aeons Torn is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.\n
+		</text>
+		
+    </card>
+	
+    
+    <card>
+        <type>CREATURE</type>
+        <creature-type>DEMON</creature-type>
+        <mana>-9</mana>
+    </card>
+	
+	<card>
+		<type>CREATURE</type>
+		<creature-type>DEMON</creature-type>
+		<description>Demon of Death's Gate</description>
+		<mana>-9</mana>
+		<color>BLACK</color>
+		<effects>
+			<effect>
+				<type>FLYING</type>
+			</effect>
+			<effect>
+				<type>TRAMPLE</type>
+			</effect>
+			<effect>
+				<type>PAY6LIFE</type>
+				<description>You may pay 6 life and sacrifice 3 black creatures rather than pay Demon of Death's Gate MANA cost</description>
+				<sacrifice>
+					<color>BLACK</color>
+					<quantity>3</quantity>
+				</sacrifice>
+			</effect>
+		</effects>
+	</card>
+</card-deck>
+<!--/card-deck1-->

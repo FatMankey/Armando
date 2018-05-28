@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Yugi Started Deck -->
+<card-deck>
+    <name>Yugi Starter Deck</name>
+    <type>MAIN</type>
+	
+<!-- The Cards -->
+    <card>
+        <number>SDY-001</number>
+        <name>Mystical Elf</name>
+        <text>A delicate elf that lacks offense, but has a terrific defense backed by mystical power</text>
+        <class>MONSTER</class>
+        <type>NORMAL</type>
+        <monster-type>SPELLCASTER</monster-type>
+        <attribute>LIGHT</attribute>
+        <level>4</level>
+        <atk>800</atk>
+        <def>2000</def>
+    </card>
+    <card>
+        <number>SDY-002</number>
+        <name>Feral Imp</name>
+        <text>A playful little fiend that lurks in the dark, waiting to attack an unwary enemy</text>
+        <class>MONSTER</class>
+        <type>NORMAL</type>
+        <monster-type>FIEND</monster-type>
+        <attribute>DARK</attribute>
+        <level>4</level>
+        <atk>1300</atk>
+        <def>1400</def>
+    </card>
+    <card>
+        <number>SDY-003</number>
+        <name>Winged Dragon, Guardian of the Fortress #1</name>
+        <text>A dragon commonly found guarding mountain fortresses. Its signature attack is a sweeping dive from out of the blue</text>
+        <class>MONSTER</class>
+        <type>NORMAL</type>
+        <monster-type>DRAGON</monster-type>
+        <attribute>WIND</attribute>
+        <level>4</level>
+        <atk>1400</atk>
+        <def>1200</def>
+    </card>
+    <card>
+        <number>SDY-020</number>
+        <name>Sword of Dark Destruction</name>
+        <text>A Dark monster equipped with this card increases its ATK by 400 points and decreases its DEF by 200 points</text>
+        <class>SPELL</class>
+        <spell-icon>EQUIP</spell-icon>
+        <atk>400</atk>
+        <def>-200</def>
+    </card>
+    <card>
+        <number>SDY-027</number>
+        <name>Trap Hole</name>
+        <text>When your opponent Normal or Flip Summons a monster with 1000 or more ATK: Target that monster; destroy that target</text>
+        <class>TRAP</class>
+        <trap-icon>NORMAL</trap-icon>
+    </card>
+</card-deck>

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Yugi Started Deck -->
+<card-deck>
+    <name>Yugi Starter Deck</name>
+    <type>MAIN</type>
+	
+<!-- The Cards -->
+	<card>
+        <number>SDY-002</number>
+        <name>Marshmacaron</name>
+        <text>If this card is destroyed by battle or card effect: You can Special Summon up to 2 other "Marshmacaron" from you hand, Deck, and/or Graveyard. You can only use this effect of "Marshmacaron" once per turn.</text>
+        <class>MONSTER</class>
+        <type>EFFECT</type>
+        <monster-type>FAIRY</monster-type>
+        <attribute>LIGHT</attribute>
+        <level>1</level>
+        <atk>200</atk>
+        <def>200</def>
+    </card>
+	<card>
+        <number>SDY-002</number>
+        <name>Marshmacaron</name>
+        <text>If this card is destroyed by battle or card effect: You can Special Summon up to 2 other "Marshmacaron" from you hand, Deck, and/or Graveyard. You can only use this effect of "Marshmacaron" once per turn.</text>
+        <class>MONSTER</class>
+        <type>EFFECT</type>
+        <monster-type>FAIRY</monster-type>
+        <attribute>LIGHT</attribute>
+        <level>1</level>
+        <atk>200</atk>
+        <def>200</def>
+    </card>
+	<card>
+        <number>SDY-002</number>
+        <name>Marshmacaron</name>
+        <text>If this card is destroyed by battle or card effect: You can Special Summon up to 2 other "Marshmacaron" from you hand, Deck, and/or Graveyard. You can only use this effect of "Marshmacaron" once per turn.</text>
+        <class>MONSTER</class>
+        <type>EFFECT</type>
+        <monster-type>FAIRY</monster-type>
+        <attribute>LIGHT</attribute>
+        <level>1</level>
+        <atk>200</atk>
+        <def>200</def>
+    </card>
+	<card>
+        <number>SDY-002</number>
+        <name>Edea The Heavenly Squire</name>
+        <text>If this card is Normal or Special Summoned: You can Specail Summon 1 monster with 800 ATK and 1000 DEF from your Deck in Defense Position; except "Edea The Heavenly Squire", also you cannot Special Summon monsters from the Extra Deck for the rest of this turn. If this card is sent to the Graveyard: You can target 1 of your banished " Monarch" Spell/Trap Cards; add it to your hand. You can only use each effect of "Edea The Heavenly Squire" once per turn. </text>
+        <class>MONSTER</class>
+        <type>EFFECT</type>
+        <monster-type>WARRIOR</monster-type>
+        <attribute>LIGHT</attribute>
+        <level>1</level>
+        <atk>800</atk>
+        <def>1000</def>
+    </card>
+	<card>
+        <number>SDY-002</number>
+        <name>Edea The Heavenly Squire</name>
+        <text>If this card is Normal or Special Summoned: You can Specail Summon 1 monster with 800 ATK and 1000 DEF from your Deck in Defense Position; except "Edea The Heavenly Squire", also you cannot Special Summon monsters from the Extra Deck for the rest of this turn. If this card is sent to the Graveyard: You can target 1 of your banished " Monarch" Spell/Trap Cards; add it to your hand. You can only use each effect of "Edea The Heavenly Squire" once per turn. </text>
+        <class>MONSTER</class>
+        <type>EFFECT</type>
+        <monster-type>WARRIOR</monster-type>
+        <attribute>LIGHT</attribute>
+        <level>1</level>
+        <atk>800</atk>
+        <def>1000</def>
+    </card>
+	<card>
+        <number>SDY-002</number>
+        <name>Edea The Heavenly Squire</name>
+        <text>If this card is Normal or Special Summoned: You can Specail Summon 1 monster with 800 ATK and 1000 DEF from your Deck in Defense Position; except "Edea The Heavenly Squire", also you cannot Special Summon monsters from the Extra Deck for the rest of this turn. If this card is sent to the Graveyard: You can target 1 of your banished " Monarch" Spell/Trap Cards; add it to your hand. You can only use each effect of "Edea The Heavenly Squire" once per turn. </text>
+        <class>MONSTER</class>
+        <type>EFFECT</type>
+        <monster-type>WARRIOR</monster-type>
+        <attribute>LIGHT</attribute>
+        <level>1</level>
+        <atk>800</atk>
+        <def>1000</def>
+    </card>
+	<card>
+        <number>SDY-002</number>
+        <name>Eidos The Underworld Squire</name>
+        <text>If this card is Normal or Special Summoned; During your Main Phase this turn, you can Tribute Summon 1 monster, in addition to your Normal Summon/Set.(You can only gain this effect once per turn.) You can banish this card from your Graveyard, them target 1 monster with 800 ATK and 1000 DEF in your Graveyard, except "Eidos The Underworld Squire"; Special Summon it in Defense Position, also you cannot Special Summon mosters from the Extra Deck for the rest of this turn. You can only use this effect of "Eidos The Underworld Squire" once per turn. </text>
+        <class>MONSTER</class>
+        <type>EFFECT</type>
+        <monster-type>SPELLCASTER</monster-type>
+        <attribute>DARK</attribute>
+        <level>2</level>
+        <atk>800</atk>
+        <def>1000</def>
+    </card>
+	<card>
+        <number>SDY-002</number>
+        <name>Eidos The Underworld Squire</name>
+        <text>If this card is Normal or Special Summoned; During your Main Phase this turn, you can Tribute Summon 1 monster, in addition to your Normal Summon/Set.(You can only gain this effect once per turn.) You can banish this card from your Graveyard, them target 1 monster with 800 ATK and 1000 DEF in your Graveyard, except "Eidos The Underworld Squire"; Special Summon it in Defense Position, also you cannot Special Summon mosters from the Extra Deck for the rest of this turn. You can only use this effect of "Eidos The Underworld Squire" once per turn. </text>
+        <class>MONSTER</class>
+        <type>EFFECT</type>
+        <monster-type>SPELLCASTER</monster-type>
+        <attribute>DARK</attribute>
+        <level>2</level>
+        <atk>800</atk>
+        <def>1000</def>
+    </card>
+	<card>
+        <number>SDY-002</number>
+        <name>Eidos The Underworld Squire</name>
+        <text>If this card is Normal or Special Summoned; During your Main Phase this turn, you can Tribute Summon 1 monster, in addition to your Normal Summon/Set.(You can only gain this effect once per turn.) You can banish this card from your Graveyard, them target 1 monster with 800 ATK and 1000 DEF in your Graveyard, except "Eidos The Underworld Squire"; Special Summon it in Defense Position, also you cannot Special Summon mosters from the Extra Deck for the rest of this turn. You can only use this effect of "Eidos The Underworld Squire" once per turn. </text>
+        <class>MONSTER</class>
+        <type>EFFECT</type>
+        <monster-type>SPELLCASTER</monster-type>
+        <attribute>DARK</attribute>
+        <level>2</level>
+        <atk>800</atk>
+        <def>1000</def>
+    </card>
+	<card>
+        <number>SDY-002</number>
+        <name>Delg The Dark Monarch</name>
+        <text>When this card is Normal or Special Summoned: You can target up to 2 cards in your opponent's Graveyard; banish tha target(s), then send the same number of cards from the top of their Deck to the Graveyard. This card cannot attack during the turn it is normal or Special Summoned.</text>
+        <class>MONSTER</class>
+        <type>EFFECT</type>
+        <monster-type>SPELLCASTER</monster-type>
+        <attribute>DARK</attribute>
+        <level>6</level>
+        <atk>2400</atk>
+        <def>1000</def>
+    </card>
+	<card>
+        <number>SDY-002</number>
+        <name>Delg The Dark Monarch</name>
+        <text>When this card is Normal or Special Summoned: You can target up to 2 cards in your opponent's Graveyard; banish tha target(s), then send the same number of cards from the top of their Deck to the Graveyard. This card cannot attack during the turn it is normal or Special Summoned.</text>
+        <class>MONSTER</class>
+        <type>EFFECT</type>
+        <monster-type>SPELLCASTER</monster-type>
+        <attribute>DARK</attribute>
+        <level>6</level>
+        <atk>2400</atk>
+        <def>1000</def>
+    </card>
+	<card>
+        <number>SDY-002</number>
+        <name>Delg The Dark Monarch</name>
+        <text>When this card is Normal or Special Summoned: You can target up to 2 cards in your opponent's Graveyard; banish tha target(s), then send the same number of cards from the top of their Deck to the Graveyard. This card cannot attack during the turn it is normal or Special Summoned.</text>
+        <class>MONSTER</class>
+        <type>EFFECT</type>
+        <monster-type>SPELLCASTER</monster-type>
+        <attribute>DARK</attribute>
+        <level>6</level>
+        <atk>2400</atk>
+        <def>1000</def>
+    </card>
+	<card>
+        <number>SDY-002</number>
+        <name>Caius The Shadow Monarch</name>
+        <text>When this card is Tribute Summoned: Target 1 card on the field;  banish that target, and if you do, inflict 1000 damage to your opponent if it was a DARK monster.</text>
+        <class>MONSTER</class>
+        <type>EFFECT</type>
+        <monster-type>FIEND</monster-type>
+        <attribute>DARK</attribute>
+        <level>6</level>
+        <atk>2400</atk>
+        <def>1000</def>
+    </card>
+	<card>
+        <number>SDY-002</number>
+        <name>Caius The Shadow Monarch</name>
+        <text>When this card is Tribute Summoned: Target 1 card on the field;  banish that target, and if you do, inflict 1000 damage to your opponent if it was a DARK monster.</text>
+        <class>MONSTER</class>
+        <type>EFFECT</type>
+        <monster-type>FIEND</monster-type>
+        <attribute>DARK</attribute>
+        <level>6</level>
+        <atk>2400</atk>
+        <def>1000</def>
+    </card>
+	<card>
+        <number>SDY-002</number>
+        <name>Caius The Shadow Monarch</name>
+        <text>When this card is Tribute Summoned: Target 1 card on the field;  banish that target, and if you do, inflict 1000 damage to your opponent if it was a DARK monster.</text>
+        <class>MONSTER</class>
+        <type>EFFECT</type>
+        <monster-type>FIEND</monster-type>
+        <attribute>DARK</attribute>
+        <level>6</level>
+        <atk>2400</atk>
+        <def>1000</def>
+    </card>
+	<card>
+        <number>SDY-002</number>
+        <name>Lucius The Shadow Vassal</name>
+        <text>You can bamish 1 Level 5 or higher monster from your Graveyard; Special Summon this card from your hand, but you cannot Special Summon monsters from your Extra Deck for the rest of this turn. If this card is Tributed for a Tribute Summon: You can reveal all Set cards your opponent controls. Your opponet cannot activate cards or effects in response to this effect's activation. You can only use each effect of "Lucius The Shadow Vassal" once per turn.</text>
+        <class>MONSTER</class>
+        <type>EFFECT</type>
+        <monster-type>FIEND</monster-type>
+        <attribute>DARK</attribute>
+        <level>1</level>
+        <atk>800</atk>
+        <def>1000</def>
+    </card>
+	<card>
+        <number>SDY-002</number>
+        <name>Lucius The Shadow Vassal</name>
+        <text>You can bamish 1 Level 5 or higher monster from your Graveyard; Special Summon this card from your hand, but you cannot Special Summon monsters from your Extra Deck for the rest of this turn. If this card is Tributed for a Tribute Summon: You can reveal all Set cards your opponent controls. Your opponet cannot activate cards or effects in response to this effect's activation. You can only use each effect of "Lucius The Shadow Vassal" once per turn.</text>
+        <class>MONSTER</class>
+        <type>EFFECT</type>
+        <monster-type>FIEND</monster-type>
+        <attribute>DARK</attribute>
+        <level>1</level>
+        <atk>800</atk>
+        <def>1000</def>
+    </card>
+	<card>
+        <number>SDY-002</number>
+        <name>Lucius The Shadow Vassal</name>
+        <text>You can bamish 1 Level 5 or higher monster from your Graveyard; Special Summon this card from your hand, but you cannot Special Summon monsters from your Extra Deck for the rest of this turn. If this card is Tributed for a Tribute Summon: You can reveal all Set cards your opponent controls. Your opponet cannot activate cards or effects in response to this effect's activation. You can only use each effect of "Lucius The Shadow Vassal" once per turn.</text>
+        <class>MONSTER</class>
+        <type>EFFECT</type>
+        <monster-type>FIEND</monster-type>
+        <attribute>DARK</attribute>
+        <level>1</level>
+        <atk>800</atk>
+        <def>1000</def>
+    </card>
+    <card>
+        <number>SDY-003</number>
+        <name>Ghost Orge & Snow Rabbit</name>
+        <text>During either player's turn, when a monster on the field activates its effect, or when a Spell/Trap Card that is already face-up on the field activates its effect: You can send this card from your hand or field to the Graveyard; destroy that card on the field. You can only use this effect of "Ghost Orge & Snow Rabbit" once per turn</text>
+        <class>MONSTER</class>
+        <type>Tuner</type>
+        <type>Effect</type>
+        <monster-type>Psychic</monster-type>
+        <attribute>Light</attribute>
+        <level>3</level>
+        <atk>0</atk>
+        <def>1800</def>
+    </card>
+	<card>
+        <number>SDY-003</number>
+        <name>Ghost Orge & Snow Rabbit</name>
+        <text>During either player's turn, when a monster on the field activates its effect, or when a Spell/Trap Card that is already face-up on the field activates its effect: You can send this card from your hand or field to the Graveyard; destroy that card on the field. You can only use this effect of "Ghost Orge & Snow Rabbit" once per turn</text>
+        <class>MONSTER</class>
+        <type>Tuner</type>
+        <type>Effect</type>
+        <monster-type>Psychic</monster-type>
+        <attribute>Light</attribute>
+        <level>3</level>
+        <atk>0</atk>
+        <def>1800</def>
+    </card>
+	<card>
+        <number>SDY-003</number>
+        <name>Ghost Orge & Snow Rabbit</name>
+        <text>During either player's turn, when a monster on the field activates its effect, or when a Spell/Trap Card that is already face-up on the field activates its effect: You can send this card from your hand or field to the Graveyard; destroy that card on the field. You can only use this effect of "Ghost Orge & Snow Rabbit" once per turn</text>
+        <class>MONSTER</class>
+        <type>Tuner</type>
+        <type>Effect</type>
+        <monster-type>Psychic</monster-type>
+        <attribute>Light</attribute>
+        <level>3</level>
+        <atk>0</atk>
+        <def>1800</def>
+    </card>
+	<card>
+        <number>SDY-020</number>
+        <name>The Monarchs Stormforth</name>
+        <text>Once during this turn, if you would Tribute a monster(s) you control for a Tribute Summon, you can Tribute 1 monster your opponent controls as if you controlled it. You can only activate 1 "The Monarchs Stormforth" per turn. During the turn you activae this card, you cannot Special Summon monsters from the Extra Deck.</text>
+        <class>SPELL</class>
+        <spell-icon>QUICKPLAY</spell-icon>
+    </card>
+	<card>
+        <number>SDY-020</number>
+        <name>Fires of Doomsday</name>
+        <text>Special Suummon 2 "Doomsday Tokens" (Fiend-Type/DARK/Level 1/ATK 0/DEF 0) in Defense Position. These Tokens cannot be Tributed for a Tribute Summon, unless it is for a Dark monster. You cannot Summon other monsters the turn you activate this card (but you can Normal Set).</text>
+        <class>SPELL</class>
+        <spell-icon>QUICKPLAY</spell-icon>
+    </card>
+	<card>
+        <number>SDY-020</number>
+        <name>Fires of Doomsday</name>
+        <text>Special Suummon 2 "Doomsday Tokens" (Fiend-Type/DARK/Level 1/ATK 0/DEF 0) in Defense Position. These Tokens cannot be Tributed for a Tribute Summon, unless it is for a Dark monster. You cannot Summon other monsters the turn you activate this card (but you can Normal Set).</text>
+        <class>SPELL</class>
+        <spell-icon>QUICKPLAY</spell-icon>
+    </card>
+	<card>
+        <number>SDY-020</number>
+        <name>Fires of Doomsday</name>
+        <text>Special Suummon 2 "Doomsday Tokens" (Fiend-Type/DARK/Level 1/ATK 0/DEF 0) in Defense Position. These Tokens cannot be Tributed for a Tribute Summon, unless it is for a Dark monster. You cannot Summon other monsters the turn you activate this card (but you can Normal Set).</text>
+        <class>SPELL</class>
+        <spell-icon>QUICKPLAY</spell-icon>
+    </card>
+    <card>
+        <number>SDY-020</number>
+        <name>Mystical Space Typhoon</name>
+        <text>Target 1 Spell/Trap Card on the field; destroy that target</text>
+        <class>SPELL</class>
+        <spell-icon>QUICKPLAY</spell-icon>
+    </card>
+	<card>
+        <number>SDY-020</number>
+        <name>Mystical Space Typhoon</name>
+        <text>Target 1 Spell/Trap Card on the field; destroy that target</text>
+        <class>SPELL</class>
+        <spell-icon>QUICKPLAY</spell-icon>
+    </card>
+	<card>
+        <number>SDY-020</number>
+        <name>Mystical Space Typhoon</name>
+        <text>Target 1 Spell/Trap Card on the field; destroy that target</text>
+        <class>SPELL</class>
+        <spell-icon>QUICKPLAY</spell-icon>
+    </card>
+	<card>
+        <number>SDY-020</number>
+        <name>Galaxy Cyclone</name>
+        <text>Target 1 Spell/Trap Card on the field; destroy it. During your Main Phase, except the turn this card was sent to the Graveyard: You can banish this card from your Graveyard, then target 1 face-up Spell/Trap Card on the field; destroy it. You can only use this effect of "Galaxy Cyclone" once per turn.</text>
+        <class>SPELL</class>
+        <spell-icon>NONE</spell-icon>
+    </card>
+	<card>
+        <number>SDY-020</number>
+        <name>Galaxy Cyclone</name>
+        <text>Target 1 Spell/Trap Card on the field; destroy it. During your Main Phase, except the turn this card was sent to the Graveyard: You can banish this card from your Graveyard, then target 1 face-up Spell/Trap Card on the field; destroy it. You can only use this effect of "Galaxy Cyclone" once per turn.</text>
+        <class>SPELL</class>
+        <spell-icon>NONE</spell-icon>
+    </card>
+	<card>
+        <number>SDY-020</number>
+        <name>Galaxy Cyclone</name>
+        <text>Target 1 Spell/Trap Card on the field; destroy it. During your Main Phase, except the turn this card was sent to the Graveyard: You can banish this card from your Graveyard, then target 1 face-up Spell/Trap Card on the field; destroy it. You can only use this effect of "Galaxy Cyclone" once per turn.</text>
+        <class>SPELL</class>
+        <spell-icon>NONE</spell-icon>
+    </card>
+    <card>
+        <number>SDY-027</number>
+        <name>Solem Strike</name>
+        <text>When a monster(s) would be Special Summoned, or a monster effect is activated: Pay 1500 LP; negate the Summonn or activation, and if you do, destroy that card</text>
+        <class>TRAP</class>
+        <trap-icon>COUNTER</trap-icon>
+    </card>
+	<card>
+        <number>SDY-027</number>
+        <name>Solem Strike</name>
+        <text>When a monster(s) would be Special Summoned, or a monster effect is activated: Pay 1500 LP; negate the Summonn or activation, and if you do, destroy that card</text>
+        <class>TRAP</class>
+        <trap-icon>COUNTER</trap-icon>
+    </card>
+	<card>
+        <number>SDY-027</number>
+        <name>Solem Strike</name>
+        <text>When a monster(s) would be Special Summoned, or a monster effect is activated: Pay 1500 LP; negate the Summonn or activation, and if you do, destroy that card</text>
+        <class>TRAP</class>
+        <trap-icon>COUNTER</trap-icon>
+    </card>
+		<card>
+        <number>SDY-027</number>
+        <name>Breakthrough Skill</name>
+        <text>Target 1 face-up Effect Monster your opponent controls; that face-up monster your opponent controls has its effects negated until the end of this turn. During your turn, except the turn this card was sent to the Graveyard: You can banish this card from your Graveyard, then target 1 face-up Effect Monster your opponent controls; that target ha its effects negated until the end of this turn.</text>
+        <class>TRAP</class>
+        <trap-icon>NONE</trap-icon>
+    </card>
+	<card>
+        <number>SDY-027</number>
+        <name>Breakthrough Skill</name>
+        <text>Target 1 face-up Effect Monster your opponent controls; that face-up monster your opponent controls has its effects negated until the end of this turn. During your turn, except the turn this card was sent to the Graveyard: You can banish this card from your Graveyard, then target 1 face-up Effect Monster your opponent controls; that target ha its effects negated until the end of this turn.</text>
+        <class>TRAP</class>
+        <trap-icon>NONE</trap-icon>
+    </card>
+	<card>
+        <number>SDY-027</number>
+        <name>Breakthrough Skill</name>
+        <text>Target 1 face-up Effect Monster your opponent controls; that face-up monster your opponent controls has its effects negated until the end of this turn. During your turn, except the turn this card was sent to the Graveyard: You can banish this card from your Graveyard, then target 1 face-up Effect Monster your opponent controls; that target ha its effects negated until the end of this turn.</text>
+        <class>TRAP</class>
+        <trap-icon>NONE</trap-icon>
+    </card>
+</card-deck>
