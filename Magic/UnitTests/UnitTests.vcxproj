@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{613A32E0-681F-407F-A54D-3B2DE390E61B}</ProjectGuid>
     <RootNamespace>UnitTests</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -96,7 +96,7 @@
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(ToolsSolutionDir)x64\Debug;$(SolutionDir)Magic\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>Tools.lib;card.obj;carddeck.obj;controller.obj;flipcard.obj;mana.obj;types.obj;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Tools.lib;card.obj;carddeck.obj;controller.obj;flipcard.obj;mana.obj;types.obj;humanplayer.obj;player.obj;aiplayer.obj;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>

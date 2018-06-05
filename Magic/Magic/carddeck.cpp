@@ -39,7 +39,7 @@ std::pair<bool, std::vector<std::string>>  CardDeck::create(std::string fileName
 
 							// Validate the type against the Types cardType
 							if (types->findCardType(type)) {
-								
+								  
 							}
 							else {
 								// Skip rest of unknown Card

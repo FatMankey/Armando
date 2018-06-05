@@ -2,6 +2,8 @@
 #include "controller.h"
 #include "carddeck.h"
 #include "types.h"
+#include "humanplayer.h"
+#include "aiplayer.h"
 #include <iostream>
 
 // Function prototype statements
@@ -9,7 +11,7 @@ void testFlipCard();
 void testController();
 void testCardDeck();
 void runAllTests();
-
+void TestPlayer();
 int main() {
 	int option = 0;
 
@@ -22,6 +24,7 @@ int main() {
 			std::cout << "1. Test FlipCard" << std::endl;
 			std::cout << "2. Test Controller" << std::endl;
 			std::cout << "3. Test Card Deck" << std::endl;
+			std::cout << "4. Test Player" << std::endl;
 			std::cout << "8. Run all tests" << std::endl;
 			std::cout << "9. Exit" << std::endl << std::endl;
 
@@ -43,6 +46,10 @@ int main() {
 				}
 				case 3: {
 					testCardDeck();
+					break;
+				}
+				case 4: {
+					TestPlayer();
 					break;
 				}
 				case 8: {
@@ -104,6 +111,7 @@ void testCardDeck() {
 	Types* types = new Types();
 	CardDeck cardDeck1("carddeck.xml", types);
 
+
 }
 
 void runAllTests() {
@@ -112,4 +120,14 @@ void runAllTests() {
 	testFlipCard();
 	testController();
 	testCardDeck();
+	TestPlayer();
+}
+void TestPlayer() {
+	std::cout << std::endl << "Testing the player: " << std::endl << std::endl;
+	Types* types = new Types();
+	std::vector<Player*> player;
+	Player* player1 = new HumanPlayer("eric", "carddeck.xml", types);
+	Player* player2 = new AIPlayer("David", "carddeck.xml", types);
+	player.emplace_back(player1);
+	player.emplace_back(player2);
 }
